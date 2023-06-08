@@ -9,21 +9,32 @@ opers_list = ["+", "-", "*", "/", "^"]
 # logic here
 # catch error by using ==> try except - method
 
+
+result = 0
 try:
-    if oper in opers_list:
-        if oper == "+":
-            print(x + y)
-        elif oper == "-":
-            print(x - y)
-        elif oper == "*":
-            print(x * y)
-        elif oper == "/":
-            print(x / y)
-        elif oper == "^":
-            print(x ** y)
-        else:
-            print("There is something wrong !!!")
-    else:
-        print("There is something wrong !!!")
+    x/y
+except ZeroDivisionError:
+    print("ZeroDivisionError")
 except:
     print("There is something wrong !!!")
+else:
+    if oper in opers_list:
+        if oper == "+":
+            result = x + y
+        elif oper == "-":
+            result = x - y
+        elif oper == "*":
+            result = x * y
+        elif oper == "/":
+            result = x / y
+        elif oper == "^":
+            result = x ** y
+        else:
+            print("There is something wrong !!!")
+
+        # print result
+        print(f"{x} {oper} {y} = {result}")
+    else:
+        print("Operator not found")
+finally:
+    print("Process end !")
