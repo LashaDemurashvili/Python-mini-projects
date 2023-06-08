@@ -1,10 +1,10 @@
-x = float(input("Please enter the first number: "))
+x = input("Please enter the first number: ")
 
 oper = input("Please choose the operation: \n[ + ] Plus\n[ - ] Minus\n[ * ] Multiply\n[ / ] Divide \n[ ^ ] Square \n: ")
 
-y = float(input("Please enter the second number: "))
+y = input("Please enter the second number: ")
 
-opers_list = ["+", "-", "*", "/", "^"]
+oper_list = ["+", "-", "*", "/", "^"]
 
 # logic here
 # catch error by using ==> try except - method
@@ -12,29 +12,36 @@ opers_list = ["+", "-", "*", "/", "^"]
 
 result = 0
 try:
-    x/y
-except ZeroDivisionError:
-    print("ZeroDivisionError")
-except:
-    print("There is something wrong !!!")
-else:
-    if oper in opers_list:
-        if oper == "+":
-            result = x + y
-        elif oper == "-":
-            result = x - y
-        elif oper == "*":
-            result = x * y
-        elif oper == "/":
-            result = x / y
-        elif oper == "^":
-            result = x ** y
-        else:
-            print("There is something wrong !!!")
+    # if i choose letter instead of number this handler catching this error
+    x = float(x)
+    y = float(y)
 
-        # print result
-        print(f"{x} {oper} {y} = {result}")
+except:
+    print("Please enter only numbers !!!")
+else:
+    # handle zero division
+    try:
+        x / y
+    except ZeroDivisionError:
+        print("ZeroDivisionError")
     else:
-        print("Operator not found")
+        if oper in oper_list:
+            if oper == "+":
+                result = x + y
+            elif oper == "-":
+                result = x - y
+            elif oper == "*":
+                result = x * y
+            elif oper == "/":
+                result = x / y
+            elif oper == "^":
+                result = x ** y
+            else:
+                print("There is something wrong !!!")
+
+            # print result
+            print(f"{x} {oper} {y} = {result}")
+        else:
+            print("Wrong operation !!!")
 finally:
     print("Process end !")
