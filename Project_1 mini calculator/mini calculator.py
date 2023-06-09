@@ -6,10 +6,9 @@ y = input("Please enter the second number: ")
 
 oper_list = ["+", "-", "*", "/", "^"]
 
+
 # logic here
 # catch error by using ==> try except - method
-
-
 result = 0
 try:
     # if i choose letter instead of number this handler catching this error
