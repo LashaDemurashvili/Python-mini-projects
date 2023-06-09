@@ -7,7 +7,6 @@ def fact(n):
     # call inner function
     return fact(n - 1) * n
 
-
 print(fact(5))
 
 # test function
