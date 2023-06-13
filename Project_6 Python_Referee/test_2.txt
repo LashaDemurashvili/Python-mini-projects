@@ -1,0 +1,1 @@
+%car_2$, Car_2, house_2, ship_2, yacht_2, train_2, apple_2, lasha
