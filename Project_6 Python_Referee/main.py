@@ -1,9 +1,10 @@
 import re
 
 # comments here
-# comments here
-# comments here
-# comments here
+# Program description
+# This program comparing two books to each other. and counting unique words.
+# and making different type mathematical statistics.
+
 
 
 # global variables here
