@@ -6,7 +6,6 @@ import re
 # and making different type mathematical statistics.
 
 
-
 # global variables here
 punctuations = r"[-1234567890,.;:_?!@#$%^&*()/|{}]"
 book_1_name = "Hamlet"
