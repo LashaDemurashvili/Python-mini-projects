@@ -1,2 +1,2 @@
-# Python-mini-projects
-This repository includes different type mini projects 
+# Python-projects
+This repository includes different type python projects 
