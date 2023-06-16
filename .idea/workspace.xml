@@ -31,10 +31,12 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/Users/user/Desktop/Coding/Python Files/Python-mini-projects",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
-    "settings.editor.selected.configurable": "vcs.Git"
+    "settings.editor.selected.configurable": "vcs.Git",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RunManager" selected="Python.fact">
@@ -46,7 +48,7 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="C:\Users\user\Desktop\Coding\Python Files\venv\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../.." />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -175,6 +177,7 @@
       <workItem from="1686330434409" duration="29000" />
       <workItem from="1686330465380" duration="37000" />
       <workItem from="1686330516340" duration="2586000" />
+      <workItem from="1686944823015" duration="5000" />
     </task>
     <task id="LOCAL-00001" summary="save_0">
       <created>1686256060485</created>
@@ -261,8 +264,8 @@
     <option name="LAST_COMMIT_MESSAGE" value="save_01" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Python_mini_projects$multiplication_table.coverage" NAME="multiplication_table Coverage Results" MODIFIED="1686331817083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project_2 multiplication table" />
     <SUITE FILE_PATH="coverage/Python_mini_projects$mini_calculator.coverage" NAME="mini calculator Coverage Results" MODIFIED="1686329679543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project_1 mini calculator" />
+    <SUITE FILE_PATH="coverage/Python_mini_projects$multiplication_table.coverage" NAME="multiplication_table Coverage Results" MODIFIED="1686331817083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project_2 multiplication table" />
     <SUITE FILE_PATH="coverage/Python_mini_projects$Python_mini_projects.coverage" NAME="Python-mini-projects Coverage Results" MODIFIED="1686255189772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />
   </component>
 </project>
