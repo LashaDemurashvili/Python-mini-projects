@@ -1,3 +1,11 @@
+"""
+# Program Description
+This program process corona virus cases data, we send reqeust to web page www.worldometers and get response,
+process data, to html format
+than use python module folium, for world map and put data on the map, specific format (circles) as many cases more
+big circle, also specific color.
+"""
+
 import folium
 import requests
 import pandas
@@ -26,7 +34,6 @@ for item in rows:
 
     data_dict[c_name] = int(c_cases.replace(",", ""))
 
-
 print(data_dict)
 
 cdata = pandas.read_csv("countries.csv")
@@ -37,7 +44,7 @@ lon = list(cdata["longitude"])
 cnt = list(cdata["name"])
 
 map = folium.Map(location=[42.42, 42.42], zoom_start=3, tiles="Stamen "
-                                                                                                            "Terrain")
+                                                              "Terrain")
 
 fg = folium.FeatureGroup(name="My Markers")
 
