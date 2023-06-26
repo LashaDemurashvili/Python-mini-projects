@@ -54,8 +54,11 @@ def rest():
     start_button.grid(row=1, columnspan=2, sticky="ew")
     label_1.config(text="00:00")
 
-# temp
 
+# back side above
+
+
+# front side below
 label_1 = Label(window, width=6, font=("Arial", 100), text="00:00")
 label_1.grid(row=0, columnspan=2)
 
@@ -67,7 +70,6 @@ reset_button = Button(window, text="Reset", font=("Arial", 30), command=rest, wi
 
 # manage buttons with grid
 start_button.grid(row=1, columnspan=2, sticky="ew")
-
 
 window.mainloop()
 
