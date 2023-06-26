@@ -1,3 +1,8 @@
+"""
+Stopwatch
+using Tkinter module
+"""
+
 from tkinter import *
 from datetime import datetime
 
@@ -21,7 +26,6 @@ def tick():
 def start():
     start_button.grid_forget()
     stop_button.grid(row=1, columnspan=2, sticky="ew")
-
     tick()
 
 
