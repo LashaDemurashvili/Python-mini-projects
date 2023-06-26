@@ -1,6 +1,10 @@
+"""
+live time
+"""
+
 from datetime import datetime
 import time
-
+import os
 
 def main():
     while True:
